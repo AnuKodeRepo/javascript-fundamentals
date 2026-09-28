@@ -38,7 +38,7 @@ let numberOfCargoHolds = 3;
 
 // DEMO: Calculate the average mass per hold and store in a
 // new variable; print it to the console to see the result.
-let averageMass = (parseInt(totalCargoMass))/numberOfCargoHolds;
+let averageMass = (parseInt(totalCargoMass))/numberOfCargoHolds + " kg";
 console.log(averageMass);
 console.log(typeof averageMass);
 
