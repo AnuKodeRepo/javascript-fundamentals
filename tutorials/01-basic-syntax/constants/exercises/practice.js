@@ -12,12 +12,15 @@
     Name it 'SPEED_OF_LIGHT' and set it to 299792458.
 */
 
+const SPEED_OF_LIGHT = 299792458;
+
 /** EXERCISE 2: SHIP LIMITS **/
 
 /*
     TODO: Create a constant named 'MAX_FUEL_CAPACITY' 
     and set it to 5000.
 */
+const MAX_FUEL_CAPACITY = 5000;
 
 /** EXERCISE 3: CHOOSE THE RIGHT KEYWORD **/
 
@@ -27,7 +30,9 @@
     Declare both with the appropriate keywords (let/const) 
     and naming styles.
 */
-
+ let altitude = 1000;
+ const HOME_PLANET = "Earth";
+ 
 /** EXERCISE 4: THE ERROR TEST **/
 
 const CAPTAIN_NAME = "Miller";
@@ -40,4 +45,5 @@ const CAPTAIN_NAME = "Miller";
 // CAPTAIN_NAME = "Holden";
 
 console.log("Captain is still: " + CAPTAIN_NAME);
+console.log(`Altitude: ${altitude} | HomePlanet: ${HOME_PLANET}`);
 // Great job!
